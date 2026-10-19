@@ -1,0 +1,11 @@
+name: navsim
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  # Bootstrap only. Install the CUDA wheels and locked Python dependencies
+  # afterwards, in the order documented in docs/install.md.
+  - python=3.10.22
+  - pip=25.0.1
+  - setuptools=65.5.1
+  - wheel=0.48.0

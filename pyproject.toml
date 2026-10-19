@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "navsim"
+version = "1.1.0"
+description = "NAVSIM: Data-Driven Non-Reactive Autonomous Vehicle Simulation and Benchmarking"
+authors = [
+    { name = "University of Tuebingen", email = "kashyap.chitta@uni-tuebingen.de" }
+]
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.9"
+dependencies = []  # Populated below from requirements.txt
+urls = { Homepage = "https://github.com/autonomousvision/navsim" }
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "Operating System :: OS Independent",
+    "License :: Free for non-commercial use"
+]
+
+[tool.setuptools]
+package-dir = {"" = "."}
+
+[tool.setuptools.packages.find]
+where = ["."]
