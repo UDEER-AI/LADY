@@ -2,7 +2,11 @@
 
 **Jihao Huang, Xi Xia, Zhiyuan Li, Tianle Liu, Jingke Wang, Junbo Chen, Tengju Ye**
 
-### [IEEE RA-L](https://doi.org/10.1109/LRA.2026.3673934) · [arXiv](https://arxiv.org/abs/2512.15038) · [PDF](https://arxiv.org/pdf/2512.15038) · [Model Weights](https://huggingface.co/Jihaoudeer/LADY) · [Method](#method-overview) · [Results](#paper-results) · [Installation](#installation) · [Training](#training) · [Evaluation](#evaluation) · [Citation](#citation)
+[![Paper: LADY](https://img.shields.io/badge/Paper-LADY-2b9348.svg?logo=arXiv)](https://arxiv.org/abs/2512.15038)&nbsp;
+[![Hugging Face weights](https://img.shields.io/badge/%F0%9F%A4%97%20Weights-LADY-yellow)](https://huggingface.co/Jihaoudeer/LADY)&nbsp;
+[![IEEE RA-L](https://img.shields.io/badge/IEEE-RA--L-00629B.svg)](https://doi.org/10.1109/LRA.2026.3673934)
+
+### [Method](#method-overview) · [Results](#paper-results) · [Installation](#installation) · [Training](#training) · [Evaluation](#evaluation) · [Citation](#citation)
 
 This repository contains the **NAVSIM implementation of LADY**, built on the NAVSIM v1.1 devkit. LADY uses RWKV-7 linear attention to fuse multi-frame camera and LiDAR observations, introduces lightweight linear cross-attention (LICA) for context-conditioned decoding, and generates multi-modal trajectories with a truncated diffusion planner.
 
@@ -351,7 +355,7 @@ The following documents are retained from the upstream devkit. Use the LADY-spec
 
 ## Acknowledgements
 
-This implementation builds on [NAVSIM](https://github.com/autonomousvision/navsim), [nuPlan](https://github.com/motional/nuplan-devkit), [OpenScene](https://github.com/OpenDriveLab/OpenScene), [TransFuser](https://github.com/autonomousvision/transfuser), [DiffusionDrive](https://github.com/hustvl/DiffusionDrive), [iPad](https://github.com/Kguo-cs/iPad) by Ke Guo et al., [RWKV](https://github.com/BlinkDL/RWKV-LM), and [Flash Linear Attention](https://github.com/fla-org/flash-linear-attention). We thank the authors and maintainers for their open-source contributions.
+This implementation builds on [NAVSIM](https://github.com/autonomousvision/navsim), [nuPlan](https://github.com/motional/nuplan-devkit), [OpenScene](https://github.com/OpenDriveLab/OpenScene), [TransFuser](https://github.com/autonomousvision/transfuser), [DiffusionDrive](https://github.com/hustvl/DiffusionDrive), [iPad](https://github.com/Kguo-cs/iPad), [RWKV](https://github.com/BlinkDL/RWKV-LM), and [Flash Linear Attention](https://github.com/fla-org/flash-linear-attention). We thank the authors and maintainers for their open-source contributions.
 
 ## Citation
 
